@@ -1,6 +1,5 @@
 
 import telnetlib
-
 from time import sleep
 #Telnet WOL Script
 
