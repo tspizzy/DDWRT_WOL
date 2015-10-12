@@ -1,5 +1,5 @@
 # DDWRT_WOL
-Remotely WOL a device via your DD-WRT equipped router, from anywhere! Configure this python script with your DDWRT Login and network info, then run it to remotely wake your device. Works over the internet, and can WOL your device with just a quick double-click.
+Remotely Wake on Lan a device via your DD-WRT equipped router, from anywhere! Configure this python script with your DDWRT Login and network info, then run it to remotely wake your device. Works over the internet, and can WOL your device with just a quick double-click.
 
 ## Requirements
 - DD-WRT installed on your router
