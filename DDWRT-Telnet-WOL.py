@@ -8,12 +8,11 @@ host = '' #WAN IP or DDNS name for router
 user = 'root' #username is root for telnet connections
 my_password = '' #router admin password
 
-#vars for WOL
-
-
+#vars for WOL and device
 broadcast_ip = '' #usually your subnet plus .255 (eg 192.168.1.255)
 packet_port = '7' #usually 7
-device_mac = '' #MAC address of the network port on the device you want to wake up.
+device_mac = '' #MAC address of the network port on the device you want to wake up. In format 'AA:BB:CC:11:22:33'
+
 
 print "Connecting..."
 # Telnet to server
