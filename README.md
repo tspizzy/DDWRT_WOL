@@ -3,12 +3,13 @@ Remotely Wake on Lan a device via your DD-WRT equipped router, from anywhere! Co
 
 ## Requirements
 - DD-WRT installed on your router
-- Telnet Enabled
+- Telnet OR SSH Enabled
 - You must know the WAN IP of the router, or DDNS name
 - Know the MAC Address of the device you want to wake. You may be able to find this in the DD-WRT config page.
 
 ## Configuration
 - in the DDWRT_WOL.py file, add your credentials to the quoted areas, within the quotes. e.g. password = 'your_password'
 
-## Other notes
-I realize this isn't particularly secure, but it works and it's handy. If you have a suggestion on how to make it more secure, let me know!
+## SSH!
+I refactored using SSH instead of telnet. This provides a better level of security, and I would recommend it over the telnet script.
+
